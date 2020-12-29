@@ -44,7 +44,7 @@ def check_for_win(flags):
         return False
 
 
-if __name__ == '__main__':
+def run():
     turn = 1
     chances = 6
     digits = 4
@@ -62,3 +62,7 @@ if __name__ == '__main__':
             print(" Turn {}:".format(turn), flags, "\n")
             turn += 1
     print("You ran out of guesses. \n The code is {}".format(code))
+
+
+if __name__ == '__main__':
+    run()
