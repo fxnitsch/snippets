@@ -66,6 +66,7 @@ def check_for_win(flags):
 
 
 def run():
+    """ Main runner of the mastermind game """
     turn = 1
     chances = 6
     digits = 4
